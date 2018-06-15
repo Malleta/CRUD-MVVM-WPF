@@ -1,0 +1,31 @@
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\Mini-projekat 2 – Entity Framework MVVM.exe.config
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\Mini-projekat 2 – Entity Framework MVVM.exe
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\Mini-projekat 2 – Entity Framework MVVM.pdb
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\MainPage.g.cs
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\App.g.cs
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM_MarkupCompile.cache
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM_MarkupCompile.lref
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\MainPage.baml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.g.resources
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini_projekat_2___Entity_Framework_MVVM.Properties.Resources.resources
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.csproj.GenerateResource.cache
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.csproj.CoreCompileInputs.cache
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.exe
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.pdb
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\EntityFramework.dll
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\EntityFramework.xml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.csprojResolveAssemblyReference.cache
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini-projekat 2 – Entity Framework MVVM.csproj.CopyComplete
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini_projekat_2___Entity_Framework_MVVM.Migrations.InitialModel.resources
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini_projekat_2___Entity_Framework_MVVM.Migrations.PopulateDatabase.resources
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\AddPage.g.cs
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\AddPage.baml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\ModifyPage.g.cs
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\ModifyPage.baml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\Mini_projekat_2___Entity_Framework_MVVM.Migrations.EnableCascadeDeleteOnAddresses.resources
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\Partial\SortWithCoursesPage.g.cs
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\obj\Debug\View\Partial\SortWithCoursesPage.baml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\Mini-projekat 2 – Entity Framework MVVM.exe.CodeAnalysisLog.xml
+E:\C#\Mini-projekat 2 – Entity Framework MVVM\Mini-projekat 2 – Entity Framework MVVM\bin\Debug\Mini-projekat 2 – Entity Framework MVVM.exe.lastcodeanalysissucceeded

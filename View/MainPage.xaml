@@ -1,0 +1,104 @@
+﻿<Page x:Class="Mini_projekat_2___Entity_Framework_MVVM.View.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mini_projekat_2___Entity_Framework_MVVM.View"
+      mc:Ignorable="d" WindowWidth="800" WindowHeight="400"
+      Title="MainPage" Background="WhiteSmoke" d:DesignWidth="800" d:DesignHeight="400">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="CadetBlue"  Grid.Row="0" Height="50" VerticalAlignment="Top">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20px" Foreground="White">Students</Label>
+            <Button Click="DeleteButton_Click" Width="50px" HorizontalAlignment="Right" Background="Red" Foreground="White">Delete</Button>
+            <Button Click="AddButton_Click" Width="50px" HorizontalAlignment="Right" Background="Green" Foreground="White" Margin="0,0,102,0">Add</Button>
+            <Button Click="ModifyButton_Click" Width="50px" HorizontalAlignment="Right" Background="DarkOrange" Foreground="White" Margin="0,0,51,0">Modify</Button>
+        </Grid>
+
+        <Grid Margin="30 0 30 30" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10px"/>
+                <RowDefinition Height="20px"></RowDefinition>
+                <RowDefinition Height="10px"/>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox SelectionChanged="ListBoxSort_SelectionChanged" x:Name="ListBoxSort" Grid.Column="0" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top">
+                    <ComboBoxItem>First Name - Ascending</ComboBoxItem>
+                    <ComboBoxItem>First Name - Descending</ComboBoxItem>
+                    <ComboBoxItem>Last Name - Ascending</ComboBoxItem>
+                    <ComboBoxItem>Last Name - Descending</ComboBoxItem>
+                </ComboBox>
+                <Button Grid.Column="1" Click="CoursesSortButton_Click">Sort with Courses</Button>
+                <Button Click="ReloadButton_Click" Grid.Column="2" HorizontalAlignment="Right">Reload</Button>
+            </Grid>
+            <DataGrid Grid.Row="3" x:Name="StudentsDataGrid" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="First name"  Binding="{Binding sFirstName}"/>
+                    <DataGridTextColumn Header="Last name"  Binding="{Binding sLastName}"/>
+                </DataGrid.Columns>
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate> 
+                        <Border BorderThickness="0" Background="WhiteSmoke" Padding="10">
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="15" Text="Address details" VerticalAlignment="Center" FontWeight="Bold"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="12" Text="Address: " VerticalAlignment="Center" />
+                                    <TextBlock FontSize="16" Foreground="MidnightBlue" Text="{Binding Address.Address1}" VerticalAlignment="Center" />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="12" Text="City: " VerticalAlignment="Center" />
+                                    <TextBlock FontSize="16" Foreground="MidnightBlue" Text="{Binding Address.City}" VerticalAlignment="Center" />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="12" Text="Country: " VerticalAlignment="Center" />
+                                    <TextBlock FontSize="16" Foreground="MidnightBlue" Text="{Binding Address.Country}" VerticalAlignment="Center" />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="12" Text="Courses: " VerticalAlignment="Center" />
+                                    <ListView ItemsSource="{Binding Courses}" Width="auto">
+                                        <ListView.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel Orientation="Horizontal"></StackPanel>
+                                            </ItemsPanelTemplate>
+                                        </ListView.ItemsPanel>
+                                        <ListView.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding cName}"></TextBlock>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>
+                                    </ListView>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
+            </DataGrid>
+
+            <StackPanel Grid.Column="1" Grid.Row="3">
+                <Label>List of Courses:</Label>
+                <ListBox x:Name="CoursesListBox" DisplayMemberPath="cName" SelectionMode="Multiple" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="150"></ListBox>
+                <Button Click="SortWithCoursesButton_Click">Sort</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
